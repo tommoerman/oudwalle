@@ -10,7 +10,7 @@
 // vendors not installed
 if(!is_dir(__DIR__ . '/vendor'))
 {
-	echo 'Your install is missing some dependencies. If you have composer installed you should run: <code>composer install</code>. If you don\'t have composer installed you really should, see http://getcomposer.org for more information';
+	echo 'Your install is missing some dependencies. If you have composer installed you should run: <code>composer install</code>. If you don\'t have composer installed you really should, see http://getcomposer.org for more information - test';
 	exit;
 }
 
