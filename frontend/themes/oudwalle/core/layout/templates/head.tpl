@@ -13,6 +13,9 @@
 
 	<title>{$pageTitle}</title>
 
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"
+	
 	{* Favicon and Apple touch icon *}
 	<link rel="shortcut icon" href="{$THEME_URL}/favicon.ico" />
 	<link rel="apple-touch-icon" href="{$THEME_URL}/apple-touch-icon.png" />
@@ -34,4 +37,5 @@
 
 	{* Site wide HTML *}
 	{$siteHTMLHeader}
+	
 </head>

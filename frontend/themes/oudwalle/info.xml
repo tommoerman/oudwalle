@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<name>oudwalle</name>
+	<name>triton</name>
 	<version>1.0.0</version>
 	<requirements>
 		<minimum_version>3.0.0</minimum_version>
@@ -8,7 +8,7 @@
 	<thumbnail>thumbnail.png</thumbnail>
 	<description>
 		<![CDATA[
-			Theme created for Oudwalle.be using github on linux
+			This is the theme for oudwalle.be
 		]]>
 	</description>
 	<authors>
@@ -22,32 +22,18 @@
 		<template label="Default" path="core/layout/templates/default.tpl">
 			<positions>
 				<position name="main" />
-				<position name="left" />
-				<position name="top">
-					<defaults>
-						<widget module="search" action="form" />
-					</defaults>
-				</position>
-				<position name="advertisement" />
+				
 			</positions>
 			<format>
-				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[left,main,main,main]
+				[main]
 			</format>
 		</template>
 		<template label="Home" path="core/layout/templates/home.tpl">
 			<positions>
 				<position name="main" />
-				<position name="left" />
-				<position name="right" />
-				<position name="top">
-					<defaults>
-						<widget module="search" action="form" />
-					</defaults>
-				</position>
-				<position name="advertisement" />
 			</positions>
 			<format>
-				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[main,main,main,main],[left,left,right,right]
+				[main]
 			</format>
 		</template>
 	</templates>
