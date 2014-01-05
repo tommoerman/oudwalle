@@ -86,6 +86,8 @@ class FrontendHeader extends FrontendBaseObject
 		// add some default CSS files
 		$this->addCSS('/frontend/core/layout/css/jquery_ui/jquery_ui.css', false);
 		$this->addCSS('/frontend/core/layout/css/screen.css');
+		$this->addCSS('/frontend/core/layout/css/icons.css');
+		  
 
 		// debug stylesheet
 		if(SPOON_DEBUG) $this->addCSS('/frontend/core/layout/css/debug.css');
