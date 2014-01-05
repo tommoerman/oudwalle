@@ -12,3 +12,25 @@
             </div>
         </div>
 </footer>
+
+{* General Javascript *}
+		{iteration:jsFiles}
+			<script src="{$jsFiles.file}"></script>
+		{/iteration:jsFiles}
+
+		<script src="{$THEME_URL}/core/js/jquery.selectbox-0.2.min.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(e) {
+				if($(window).width() < 768){
+					$('.mobile').click(function(e) {
+						e.preventDefault();
+						$('.main').slideToggle("fast");
+					});
+				}
+				$("#lang").selectbox({
+					onChange: function(val){
+						window.location.href=val;
+						}
+					});
+			});
+		</script>
