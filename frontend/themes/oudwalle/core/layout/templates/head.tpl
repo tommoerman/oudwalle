@@ -29,7 +29,10 @@
 	{iteration:cssFiles}
 		<link rel="stylesheet" href="{$cssFiles.file}" />
 	{/iteration:cssFiles}
-
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/frontend/themes/oudwalle/core/layout/css/icons-ie7.css">
+    <![endif]-->  
+    
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
