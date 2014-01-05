@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <backend>
+    <core>
+      <item type="label" name="Slideshow">
+        <translation language="nl"><![CDATA[Slideshow]]></translation>
+        <translation language="en"><![CDATA[Slideshow]]></translation>
+      </item>
+      <item type="label" name="Slideshows">
+        <translation language="nl"><![CDATA[Slideshows]]></translation>
+        <translation language="en"><![CDATA[Slideshows]]></translation>
+      </item>
+	  <item type="label" name="AddImages">
+	   <translation language="nl"><![CDATA[Afbeeldingen toevoegen]]></translation>
+	   <translation language="en"><![CDATA[Add images]]></translation>
+	  </item>
+     <item type="label" name="AddCategory">
+        <translation language="nl"><![CDATA[Categorie toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add Category]]></translation>
+      </item>
+	  <item type="label" name="AddSlideshow">
+        <translation language="nl"><![CDATA[Slideshow toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add Slideshow]]></translation>
+      </item>	   	  
+    </core>
+    <slideshow>
+      <item type="label" name="Add">
+        <translation language="nl"><![CDATA[Toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add]]></translation>
+      </item>	  
+      <item type="label" name="Title">
+        <translation language="nl"><![CDATA[Titel]]></translation>
+        <translation language="en"><![CDATA[Title]]></translation>
+      </item>	  
+      <item type="label" name="Category">
+        <translation language="nl"><![CDATA[Categorie]]></translation>
+        <translation language="en"><![CDATA[Category]]></translation>
+      </item>	  	  
+      <item type="label" name="Categories">
+        <translation language="nl"><![CDATA[Categorieën]]></translation>
+        <translation language="en"><![CDATA[Categories]]></translation>
+      </item>  	  	  
+      <item type="label" name="Slideshow">
+        <translation language="nl"><![CDATA[Slideshow]]></translation>
+        <translation language="en"><![CDATA[Slideshow]]></translation>
+      </item>
+      <item type="label" name="Status">
+        <translation language="nl"><![CDATA[Status]]></translation>
+        <translation language="en"><![CDATA[State]]></translation>
+      </item>	  
+      <item type="label" name="Name">
+        <translation language="nl"><![CDATA[Naam]]></translation>
+        <translation language="en"><![CDATA[Name]]></translation>
+      </item>	  	  
+      <item type="label" name="Description">
+        <translation language="nl"><![CDATA[Omschrijving]]></translation>
+        <translation language="en"><![CDATA[Description]]></translation>
+      </item>
+      <item type="label" name="Picture">
+        <translation language="nl"><![CDATA[Afbeelding]]></translation>
+        <translation language="en"><![CDATA[Picture]]></translation>
+      </item>	
+      <item type="label" name="Dimensions">
+        <translation language="nl"><![CDATA[Afmetingen]]></translation>
+        <translation language="en"><![CDATA[Dimensions]]></translation>
+      </item>
+      <item type="label" name="ThumbDimensions">
+        <translation language="nl"><![CDATA[Afmetingen van de thumbnail]]></translation>
+        <translation language="en"><![CDATA[Dimensions of the thumbnail]]></translation>
+      </item>
+	  <item type="label" name="UploadImages">
+        <translation language="nl"><![CDATA[Afbeeldingen toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add images]]></translation>
+      </item>
+	  <item type="label" name="Width">
+        <translation language="nl"><![CDATA[Breedte]]></translation>
+        <translation language="en"><![CDATA[Width]]></translation>
+      </item>
+	  <item type="label" name="Height">
+        <translation language="nl"><![CDATA[Hoogte]]></translation>
+        <translation language="en"><![CDATA[Height]]></translation>
+      </item>		  	  
+	  <item type="label" name="Galleries">
+         <translation language="nl"><![CDATA[Gallerijen]]></translation>
+         <translation language="en"><![CDATA[Galleries]]></translation>
+      </item>
+	  <item type="label" name="Gallery">
+         <translation language="nl"><![CDATA[Gallerij]]></translation>
+         <translation language="en"><![CDATA[Gallery]]></translation>
+      </item>	  
+      <item type="error" name="DescriptionIsRequired">
+        <translation language="nl"><![CDATA[Omschrijving is verplicht.]]></translation>
+        <translation language="en"><![CDATA[The description is required.]]></translation>
+      </item>	  
+      <item type="error" name="SlideshowIsRequired">
+        <translation language="nl"><![CDATA[Slideshow is verplicht.]]></translation>
+        <translation language="en"><![CDATA[The Slideshow is required.]]></translation>
+      </item>
+      <item type="error" name="PictureIsRequired">
+        <translation language="nl"><![CDATA[Afbeelding is verplicht.]]></translation>
+        <translation language="en"><![CDATA[The picture is required.]]></translation>
+      </item>	  	  
+      <item type="error" name="CategoryIsRequired">
+        <translation language="nl"><![CDATA[Gelieve een categorie te selecteren.]]></translation>
+        <translation language="en"><![CDATA[Please select a category.]]></translation>
+      </item>
+      <item type="error" name="WidthIsRequired">
+        <translation language="nl"><![CDATA[Breedte is verplicht.]]></translation>
+        <translation language="en"><![CDATA[Width is required.]]></translation>
+      </item>	  
+      <item type="error" name="HeightIsRequired">
+        <translation language="nl"><![CDATA[Hoogte is verplicht.]]></translation>
+        <translation language="en"><![CDATA[Height is required.]]></translation>
+      </item>
+      <item type="message" name="EditSlideshow">
+        <translation language="nl"><![CDATA[Bewerk Slideshow "%1$s]]></translation>
+        <translation language="en"><![CDATA[Edit Slideshow "%1$s]]></translation>
+      </item>
+      <item type="message" name="NoSlideshowInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen Slideshows in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no Slideshows in this category.]]></translation>
+      </item>
+      <item type="message" name="NoCategories">
+        <translation language="nl"><![CDATA[Er zijn nog geen categorieën.]]></translation>
+        <translation language="en"><![CDATA[There are no categories yet.]]></translation>
+      </item> 
+	  
+    </slideshow>
+  </backend>
+  <frontend>
+    <core>
+      <item type="message" name="NoSlideshowInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen slideshows in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no slideshows in this category.]]></translation>
+      </item>
+    </core>
+  </frontend>
+</locale>
