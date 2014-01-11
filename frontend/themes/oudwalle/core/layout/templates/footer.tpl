@@ -19,6 +19,9 @@
 		{/iteration:jsFiles}
 
 		<script src="{$THEME_URL}/core/js/jquery.selectbox-0.2.min.js"></script>
+		<script src="{$THEME_URL}/core/js/jquery.easing.1.3.js"></script>
+		<script src="{$THEME_URL}/core/js/jquery.mobile.customized.min.js"></script>
+		
 			<script type="text/javascript">
 			$(document).ready(function(e) {
 				if($(window).width() < 768){

@@ -1,6 +1,6 @@
 	{include:core/layout/templates/head.tpl}
 
-	<body class="{$LANGUAGE} homepage" itemscope itemtype="http://schema.org/WebPage">
+	<body class="{$LANGUAGE} restaurantpage" itemscope itemtype="http://schema.org/WebPage">
 		<div class="wrapper">
 			{include:core/layout/templates/header.tpl}
 			        
