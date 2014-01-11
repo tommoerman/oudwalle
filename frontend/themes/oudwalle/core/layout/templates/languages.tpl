@@ -3,7 +3,7 @@
 	<select id="lang">
 		{option:languages}
 				{iteration:languages}
-					<option value="{$languages.url}">{$languages.label|uppercase}</option>			
+					<option {option:languages.current}selected{/option:languages.current} value="{$languages.url}">{$languages.label|uppercase}</option>			
 				{/iteration:languages}	
 		{/option:languages}
 	</select>

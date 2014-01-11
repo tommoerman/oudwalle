@@ -14,7 +14,11 @@
                         <span class="icon-location"></span> Koning Albertstraat 4,<br />
                         &nbsp;&nbsp;&nbsp;8500 Kortrijk<br />
                         <span class="icon-mail"></span> <a href="mailto=info@oudwalle.be">info@oudwalle.be</a><br />
-                        <span class="icon-calendar-empty"></span> Reserveren kan enkel telefonisch<br />
+                        <span class="icon-calendar-empty"></span>                    
+							{iteration:positionLeftTop}
+								{$positionLeftTop.blockContent}
+							{/iteration:positionLeftTop}
+							<br />
                         <span class="icon-phone"></span> 056 22 65 53<br />
                     </p>
                     <h1><span>Openingsuren</span></h1>

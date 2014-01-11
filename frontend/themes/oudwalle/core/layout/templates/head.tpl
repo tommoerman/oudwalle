@@ -30,7 +30,7 @@
 		<link rel="stylesheet" href="{$cssFiles.file}" />
 	{/iteration:cssFiles}
     <!--[if IE 7]>
-    <link rel="stylesheet" href="/frontend/themes/oudwalle/core/layout/css/icons-ie7.css">
+    <link rel="stylesheet" href="{$THEME_URL}/core/layout/css/icons-ie7.css">
     <![endif]-->  
     
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->

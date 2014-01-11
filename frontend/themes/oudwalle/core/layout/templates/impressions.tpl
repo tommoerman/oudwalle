@@ -1,5 +1,6 @@
 	{include:core/layout/templates/head.tpl}
-
+	<link rel="stylesheet" href="{$THEME_URL}/core/layout/css/camera.css">
+	
 	<body class="{$LANGUAGE} impressiepage" itemscope itemtype="http://schema.org/WebPage">
 		<div class="wrapper">
 			{include:core/layout/templates/header.tpl}
