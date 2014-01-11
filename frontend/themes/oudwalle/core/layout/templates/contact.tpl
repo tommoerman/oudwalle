@@ -8,7 +8,9 @@
                 <div class="balk top"></div>
 				<section class="content">
                   <div class="links">
-                  	<h1><span>Contact</span></h1>
+                  	{iteration:positionLeftTopTitle}
+								{$positionLeftTopTitle.blockContent}
+							{/iteration:positionLeftTopTitle}
                     <p>
                     	<strong>Oud Walle</strong><br />
                         <span class="icon-location"></span> Koning Albertstraat 4,<br />
@@ -20,15 +22,13 @@
 							{/iteration:positionLeftTop}
 							<br />
                         <span class="icon-phone"></span> 056 22 65 53<br />
-                    </p>
-                    <h1><span>Openingsuren</span></h1>
+                    </p>                  
                     {iteration:positionLeft}
 						{$positionLeft.blockContent}
 					{/iteration:positionLeft}
                   </div>
                   <div id="map"></div>
                   <div class="clear_div"></div>
-                  <h1><span>Vragen of suggesties?</span></h1>
                   {iteration:positionMain}
 						{$positionMain.blockContent}
 					{/iteration:positionMain}
