@@ -32,7 +32,7 @@
                   {iteration:positionMain}
 						{$positionMain.blockContent}
 					{/iteration:positionMain}
-                  {*<form>
+                  <form>
                   	<div class="links">
                         <div class="textbox">	
                             <span class="icon icon-user"></span>
@@ -54,7 +54,7 @@
                         </div>
                         <input type="submit" value="Verstuur" class="submit" /><span class="icon-ok-1"></span> 
 					</div>
-                  </form>*}
+                  </form>
               </section>
                 <div class="balk bottom"></div>
             </div>
