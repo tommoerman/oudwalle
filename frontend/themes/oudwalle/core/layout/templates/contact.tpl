@@ -21,7 +21,7 @@
 								{$positionLeftTop.blockContent}
 							{/iteration:positionLeftTop}
 							<br />
-                        <span class="icon-phone"></span> 056 22 65 53<br />
+                        <span class="icon-phone"></span> <a href="tel:056 22 65 53" class="tel">056 22 65 53</a><br />
                     </p>                  
                     {iteration:positionLeft}
 						{$positionLeft.blockContent}

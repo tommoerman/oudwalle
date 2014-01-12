@@ -4,7 +4,7 @@
 		<img src="{$THEME_URL}/core/layout/images/logo-OudWalle.jpg" width="160" height="158" alt="Logo Oud Walle Restaurant" />
 		</a>
 			<div class="language three columns omega">
-				<span class="icon-phone"></span> 056 22 65 53
+				<span class="icon-phone"></span> <a href="tel:056 22 65 53" class="tel">056 22 65 53</a>
 				<select id="lang">
 					{option:languages}
 							{iteration:languages}
