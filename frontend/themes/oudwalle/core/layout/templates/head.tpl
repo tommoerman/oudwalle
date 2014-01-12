@@ -17,8 +17,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"
 	
 	{* Favicon and Apple touch icon *}
-	<link rel="shortcut icon" href="{$THEME_URL}/favicon.ico" />
-	<link rel="apple-touch-icon" href="{$THEME_URL}/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="{$THEME_URL}/favicon.ico">
+	<link rel="apple-touch-icon" href="{$THEME_URL}/apple-touch.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{$THEME_URL}/apple-touch-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{$THEME_URL}/apple-touch-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="{$THEME_URL}/apple-touch-144x144.png">
 
 	{* Windows 8 tile *}
 	<meta name="application-name" content="{$siteTitle}"/>
