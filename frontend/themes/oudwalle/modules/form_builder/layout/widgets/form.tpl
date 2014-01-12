@@ -14,12 +14,15 @@
 
 					{iteration:fields}
 						{* Headings and paragraphs *}
+						
 						{option:fields.plaintext}
-							<div class="content">
+							
 								{$fields.html}
-							</div>
+							
 						{/option:fields.plaintext}
-
+						
+						
+						
 						{* Input fields, textareas and drop downs *}
 						{option:fields.simple}
 							<p{option:fields.error} class="errorArea"{/option:fields.error}>
@@ -27,7 +30,7 @@
 								{option:fields.error}<span class="formError inlineError">{$fields.error}</span>{/option:fields.error}
 							</p>
 						{/option:fields.simple}
-
+						
 						{* Radio buttons and checkboxes *}
 						{option:fields.multiple}
 							<div class="inputList{option:fields.error} errorArea{/option:fields.error}">

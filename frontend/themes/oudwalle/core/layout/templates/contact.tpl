@@ -32,29 +32,7 @@
                   {iteration:positionMain}
 						{$positionMain.blockContent}
 					{/iteration:positionMain}
-                  <form>
-                  	<div class="links">
-                        <div class="textbox">	
-                            <span class="icon icon-user"></span>
-                          	<input name="name" placeholder="Naam" type="text" value="" />
-                        </div>
-                        <div class="textbox">	
-                            <span class="icon icon-phone"></span>
-                          	<input name="tel" placeholder="Tel" type="tel" value="" />
-                        </div>
-                        <div class="textbox">	
-                            <span class="icon icon-mail"></span>
-                          	<input name="email" placeholder="E-mail" type="text" value="" />
-                        </div>
-					</div>
-                  	<div class="rechts">
-                        <div class="textbox">	
-                            <span class="icon icon-comment"></span>
-                          	<textarea name="vragen-suggesties" placeholder="Vragen of suggesties"></textarea>
-                        </div>
-                        <input type="submit" value="Verstuur" class="submit" /><span class="icon-ok-1"></span> 
-					</div>
-                  </form>
+                  
               </section>
                 <div class="balk bottom"></div>
             </div>

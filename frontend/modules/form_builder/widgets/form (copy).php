@@ -202,19 +202,7 @@ class FrontendFormBuilderWidgetForm extends FrontendBaseWidget
 					if(isset($field['validations']['email'])) $txt->setAttribute('type', 'email');
 
 					// get content
-					if($field['id'] == 2){
-						$item['html'] = '<div class="textbox"><span class="icon icon-user"></span><input id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Naam" type="text" value="" /></div>';
-					}
-					else if($field['id'] == 17){
-						$item['html'] = '<div class="textbox"><span class="icon icon-phone"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Tel" type="text" value="" /></div>';
-					}
-					else if($field['id'] == 3){
-						$item['html'] = '<div class="textbox"><span class="icon icon-mail"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="E-mail" type="text" value="" /></div>';
-					}
-					else{
-					
-						$item['html'] = "TEST";//$txt->parse();
-					}
+					$item['html'] = $txt->parse();
 				}
 
 				// textarea
@@ -228,12 +216,7 @@ class FrontendFormBuilderWidgetForm extends FrontendBaseWidget
 					if($item['required']) $txt->setAttribute('required', null);
 
 					// get content
-					if($field['id'] == 4){
-						$item['html'] = '<div class="textbox"><span class="icon icon-comment"></span><textarea id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Vragen of suggesties" type="text" value=""></textarea></div>';
-					}
-					else{
-						$item['html'] = $txt->parse();
-					}
+					$item['html'] = $txt->parse();
 				}
 
 				// heading
