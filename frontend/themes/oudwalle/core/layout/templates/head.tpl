@@ -13,7 +13,7 @@
 
 	<title>{$pageTitle}</title>
 
-
+	<meta name="google-site-verification" content="OIr_nxzATDp_0QLcC8dwWD0v0R247D9W4z6V3FVU-s0" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"
 	
 	{* Favicon and Apple touch icon *}
