@@ -240,7 +240,7 @@ class FrontendFormBuilderWidgetForm extends FrontendBaseWidget
 					if($field['id'] == 4){
 						$item['html'] = '<div class="textbox"><span class="icon icon-comment"></span><textarea id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Vragen of suggesties" type="text" value=""></textarea></div>';
 					}
-					if($field['id'] == 12){
+					else if($field['id'] == 12){
 						$item['html'] = '<div class="textbox"><span class="icon icon-comment"></span><textarea id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Questions ou suggestions" type="text" value=""></textarea></div>';
 					}
 					else{
