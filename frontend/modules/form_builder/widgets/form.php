@@ -205,15 +205,24 @@ class FrontendFormBuilderWidgetForm extends FrontendBaseWidget
 					if($field['id'] == 2){
 						$item['html'] = '<div class="textbox"><span class="icon icon-user"></span><input id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Naam" type="text" value="" /></div>';
 					}
+					else if($field['id'] == 10){
+						$item['html'] = '<div class="textbox"><span class="icon icon-user"></span><input id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Nom" type="text" value="" /></div>';
+					}
 					else if($field['id'] == 17){
+						$item['html'] = '<div class="textbox"><span class="icon icon-phone"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Tel" type="text" value="" /></div>';
+					}
+					else if($field['id'] == 18){
 						$item['html'] = '<div class="textbox"><span class="icon icon-phone"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Tel" type="text" value="" /></div>';
 					}
 					else if($field['id'] == 3){
 						$item['html'] = '<div class="textbox"><span class="icon icon-mail"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="E-mail" type="text" value="" /></div>';
 					}
+					else if($field['id'] == 11){
+						$item['html'] = '<div class="textbox"><span class="icon icon-mail"></span><input  id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="E-mail" type="text" value="" /></div>';
+					}
 					else{
 					
-						$item['html'] = "TEST";//$txt->parse();
+						$item['html'] = $txt->parse();
 					}
 				}
 
@@ -230,6 +239,9 @@ class FrontendFormBuilderWidgetForm extends FrontendBaseWidget
 					// get content
 					if($field['id'] == 4){
 						$item['html'] = '<div class="textbox"><span class="icon icon-comment"></span><textarea id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Vragen of suggesties" type="text" value=""></textarea></div>';
+					}
+					if($field['id'] == 12){
+						$item['html'] = '<div class="textbox"><span class="icon icon-comment"></span><textarea id="'.$field['id'].'" name="field'.$field['id'].'" placeholder="Questions ou suggestions" type="text" value=""></textarea></div>';
 					}
 					else{
 						$item['html'] = $txt->parse();
