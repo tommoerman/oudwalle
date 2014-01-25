@@ -27,6 +27,12 @@
 	<meta name="application-name" content="{$siteTitle}"/>
 	<meta name="msapplication-TileColor" content="#3380aa"/>
 	<meta name="msapplication-TileImage" content="{$THEME_URL}/tile.png"/>
+    
+    {* Facebook meta og tags *}
+    <meta property="og:title" content="Oud Walle Restaurant"/>
+    <meta property="og:image" content="{$THEME_URL}/core/layout/images/logo-OudWalle.jpg"/>
+    <meta property="og:site_name" content="Oud Walle"/>
+    <meta property="og:description" content="Restaurant Oud Walle: lekker tafelen in een ongedwongen en gezellige sfeer. Frederik Desmet en zijn team werken graag met seizoengebonden, dagverse producten om boeiende gerechten op tafel te kunnen toveren. Van kwaliteit op het bord maken ze iedere dag een erezaak."/>
 
 	{* Stylesheets *}
 	{iteration:cssFiles}
