@@ -24,12 +24,10 @@
 		
 			<script type="text/javascript">
 			$(document).ready(function(e) {
-				if($(window).width() < 768){
-					$('.mobile').click(function(e) {
-						e.preventDefault();
-						$('.main').slideToggle("fast");
-					});
-				}
+				$('.mobile').click(function(e) {
+                    e.preventDefault();
+                    $('.main').slideToggle("fast");
+                });
 				$("#lang").selectbox({
 					onChange: function(val){
 						window.location.href=val;
