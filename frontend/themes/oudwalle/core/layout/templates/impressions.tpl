@@ -7,21 +7,19 @@
 			        
             <div class="fluid_container">
             <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/01groot.jpg" data-src="{$THEME_URL}/core/layout/images/01groot.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/deur_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/deur.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/02groot.jpg" data-src="{$THEME_URL}/core/layout/images/02groot.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/interieur_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/interieur.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/03.jpg" data-src="{$THEME_URL}/core/layout/images/03.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/luster-onder_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/luster-onder.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/03groot.jpg" data-src="{$THEME_URL}/core/layout/images/03groot.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/raam_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/raam.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/04groot.jpg" data-src="{$THEME_URL}/core/layout/images/04groot.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/tafel_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/tafel.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/05groot.jpg" data-src="{$THEME_URL}/core/layout/images/05groot.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/tafeldekking_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/tafeldekking.jpg">
                 </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/frederik-desmet.jpg" data-src="{$THEME_URL}/core/layout/images/frederik-desmet.jpg">
-                </div>
-                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/1DS_9248_4.jpg" data-src="{$THEME_URL}/core/layout/images/1DS_9248_4.jpg">
+                <div data-thumb="{$THEME_URL}/core/layout/images/thumbs/vrouwentongen_thumb.jpg" data-src="{$THEME_URL}/core/layout/images/vrouwentongen.jpg">
                 </div>
             </div><!-- #camera_wrap_3 -->
     
